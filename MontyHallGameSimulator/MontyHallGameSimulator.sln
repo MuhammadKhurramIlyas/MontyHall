@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MontyHallGameSimulator", "MontyHallGameSimulator\MontyHallGameSimulator.csproj", "{2DD8E622-C98A-43C7-8CCE-A4957B81117E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontyHallGameSimulator.Interfaces", "MontyHallGameSimulator.Interfaces\MontyHallGameSimulator.Interfaces.csproj", "{B1CF92DE-F13C-4AAB-8F20-F99B0EBA29F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontyHallSimulatorDataAccess", "MontyHallSimulatorDataAccess\MontyHallSimulatorDataAccess.csproj", "{EE178B25-5B87-49FD-981D-A262B2FCC133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontyHallSimulatorDataAccess.Interfaces", "MontyHallSimulatorDataAccess.Interfaces\MontyHallSimulatorDataAccess.Interfaces.csproj", "{31436770-18A5-4C1B-8F2B-BEEB4D603634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DD8E622-C98A-43C7-8CCE-A4957B81117E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD8E622-C98A-43C7-8CCE-A4957B81117E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD8E622-C98A-43C7-8CCE-A4957B81117E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD8E622-C98A-43C7-8CCE-A4957B81117E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CF92DE-F13C-4AAB-8F20-F99B0EBA29F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF92DE-F13C-4AAB-8F20-F99B0EBA29F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CF92DE-F13C-4AAB-8F20-F99B0EBA29F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CF92DE-F13C-4AAB-8F20-F99B0EBA29F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE178B25-5B87-49FD-981D-A262B2FCC133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE178B25-5B87-49FD-981D-A262B2FCC133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE178B25-5B87-49FD-981D-A262B2FCC133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE178B25-5B87-49FD-981D-A262B2FCC133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31436770-18A5-4C1B-8F2B-BEEB4D603634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31436770-18A5-4C1B-8F2B-BEEB4D603634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31436770-18A5-4C1B-8F2B-BEEB4D603634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31436770-18A5-4C1B-8F2B-BEEB4D603634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2541A60A-6405-4F88-AEAB-8DB43DC39301}
+	EndGlobalSection
+EndGlobal
